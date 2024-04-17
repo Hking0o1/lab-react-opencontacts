@@ -1,7 +1,50 @@
 .App {
+  font-family: Arial, sans-serif;
   text-align: center;
+  background-color: #f8f8f4;
+  font-size: 26px;
 }
 
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 80%;
+  height: 100vh;
+  border: 1px solid #01191c;
+}
+.App table >tr > th, td {
+  border: 1px solid #01191c;
+  padding: 1px;
+}
+
+th {
+  padding: 10px;
+  background-color: #0229a9;
+  color:#f8f8f4;
+}
+
+tr:nth-child(odd) {
+  background-color: #0cfee2;
+}
+
+tr:hover {
+  background-color: #f9f9f9;
+}
+button {
+  background-color: #00041c;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
